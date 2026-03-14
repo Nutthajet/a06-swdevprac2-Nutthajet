@@ -24,7 +24,7 @@ export default function Card({
         />
       </div>
 
-      <div className="text-xl font-semibold text-cyan-800 mt-2">
+      <div className="!px-2 !pt-2 text-xl font-semibold text-cyan-800 mt-2">
         {venueName}
       </div>
 
@@ -35,6 +35,7 @@ export default function Card({
         defaultValue={0}
         onChange={(event, value) => onRate(venueName, value)}
         onClick={(e) => e.stopPropagation()}
+        className="!px-2"
       />
     </InteractiveCard>
   );

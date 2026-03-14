@@ -72,7 +72,7 @@ export default function CardPanel() {
         />
       </div>
 
-      <div className="ml-5 text-lg text-black">
+      <div className="!pl-4 !pt-4 text-lg text-black">
         <h3>Venue List with Ratings : {ratings.size}</h3>
 
         {[...ratings.entries()].map(([venue, rating]) => (
